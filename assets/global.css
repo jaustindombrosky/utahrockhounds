@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Poppins:400,500,600,700,900');
+
+
+
+h1 h2{
+    font-family: 'Poppins', 'sans-serif';
+}
+
+h3 h4 h5 h6{
+    font-family: 'Libre Franklin', 'sans-serif';
+}
+
+a { color: inherit; } 
+
+.content-card:hover {
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+}
+
+.sidebar-section{
+    min-width: 200px;
+    background: #D5D5D5;
+}
+
+.no-padding-left-right{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.foursteps-header{
+    max-height: 50px;
+}
+
+.logo-container{
+    min-width: 100px;
+}
+
+.section-parent{
+    background: #E5E5E5;
+    height: calc(100vh - 50px);
+}
+
+
+.section-child{
+    height: 100%;
+    width: 100%;
+    background: white;
+    margin: auto;
+}
+
+.section-title{
+    margin-left: 5%;
+    height: 20px;
+}
+
+.navtabs-container{
+    display: flex;
+    width: 100%;
+    border-bottom: #D5D5D5 1px solid;
+}
+.navtabs-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4AAEB5;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    /* border: 1px solid #929292; */
+    background: #F2F2F2;
+    
+}
+
+
+
+.navtabs-child label{
+    font-weight: bold;
+    /* font-weight: 400; */
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.navtabs-child-selected label{
+    opacity: 1;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-family: 'Poppins', 'sans-serif';
+    color: #4BB484;
+    font-size: 16px;
+
+}
+
+
+.navtabs-child-selected{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    /* border-color: #929292; */
+    background: #D5D5D5;
+    /* border-width: 1px 1px 0px 1px; */
+    /* border-style: solid; */
+}
+
+
+.nav-child-selected a {
+    text-decoration: none;
+}
+
+.navtabs-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4AAEB5;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    /* border: 1px solid #929292; */
+    background: #F2F2F2;
+    
+}
+
